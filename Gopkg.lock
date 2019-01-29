@@ -17,12 +17,28 @@
   revision = "3df31a1ada83e310c2e24b267c8e8b68836547b4"
 
 [[projects]]
+  digest = "1:fed1f537c2f1269fe475a8556c393fe466641682d73ef8fd0491cd3aa1e47bad"
+  name = "github.com/certifi/gocertifi"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "deb3ae2ef2610fde3330947281941c562861188b"
+  version = "2018.01.18"
+
+[[projects]]
   digest = "1:ffe9824d294da03b391f44e1ae8281281b4afc1bdaa9588c9097785e3af10cec"
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   pruneopts = "UT"
   revision = "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
   version = "v1.1.1"
+
+[[projects]]
+  digest = "1:d18f6f088d7d8365df47f49dfa24b6ff6701a941118ffda30c589d1bd954074b"
+  name = "github.com/getsentry/raven-go"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "f04e7487e9a6b9d9837d52743fb5f40576c56411"
+  version = "v0.2.0"
 
 [[projects]]
   branch = "master"
@@ -165,6 +181,14 @@
   version = "v2.0.7"
 
 [[projects]]
+  digest = "1:cf31692c14422fa27c83a05292eb5cbe0fb2775972e8f1f8446a71549bd8980b"
+  name = "github.com/pkg/errors"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "ba968bfe8b2f7e042a574c888954fccecfa385b4"
+  version = "v0.8.1"
+
+[[projects]]
   digest = "1:0028cb19b2e4c3112225cd871870f2d9cf49b9b4276531f03438a88e94be86fe"
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
@@ -180,13 +204,17 @@
   revision = "256dc444b735e061061cf46c809487313d5b0065"
 
 [[projects]]
-  digest = "1:76148983df7f86167657d7285afd777c1162658735926c053c0ee92837b7cfb2"
+  digest = "1:42c146e21715d6d68fc03ec6f3a56dbd6f638a5cf743a7d7c69de6a2cde5a6b4"
   name = "github.com/shisa-platform/core"
   packages = [
+    "contenttype",
     "context",
     "env",
+    "errorx",
+    "httpx",
     "models",
     "sd",
+    "uuid",
   ]
   pruneopts = "UT"
   revision = "a976d5b05f6753f7843f2ee370cfdfaa2e8b056a"
@@ -265,10 +293,14 @@
   analyzer-version = 1
   input-imports = [
     "github.com/ansel1/merry",
+    "github.com/getsentry/raven-go",
     "github.com/hashicorp/consul/api",
     "github.com/hashicorp/vault/api",
     "github.com/shisa-platform/core/context",
     "github.com/shisa-platform/core/env",
+    "github.com/shisa-platform/core/errorx",
+    "github.com/shisa-platform/core/httpx",
+    "github.com/shisa-platform/core/models",
     "github.com/shisa-platform/core/sd",
     "github.com/stretchr/testify/assert",
   ]
