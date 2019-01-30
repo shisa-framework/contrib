@@ -204,7 +204,7 @@
   revision = "256dc444b735e061061cf46c809487313d5b0065"
 
 [[projects]]
-  digest = "1:42c146e21715d6d68fc03ec6f3a56dbd6f638a5cf743a7d7c69de6a2cde5a6b4"
+  digest = "1:3b9688143521349fadceb995312507e6d67c10861ad3f71e9a577e52c531b56f"
   name = "github.com/shisa-platform/core"
   packages = [
     "contenttype",
@@ -217,8 +217,8 @@
     "uuid",
   ]
   pruneopts = "UT"
-  revision = "a976d5b05f6753f7843f2ee370cfdfaa2e8b056a"
-  version = "v0.6.0"
+  revision = "bfce791d27a981a13b55684870b0c92b2911c162"
+  version = "v0.6.3"
 
 [[projects]]
   digest = "1:972c2427413d41a1e06ca4897e8528e5a1622894050e2f527b38ddf0f343f759"
